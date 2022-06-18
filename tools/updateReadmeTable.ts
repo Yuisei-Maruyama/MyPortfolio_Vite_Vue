@@ -21,6 +21,8 @@ const getDesc = (packageName: string) => {
       return 'ESLint と Prettier を併用する'
     case 'prettier':
       return 'コードの整形'
+    case 'sass':
+      return 'Sass をコンパイルするためのモジュール'
     case '@typescript-eslint/parser':
       return 'ESLint を Typescript で解析できるようにする'
     case '@typescript-eslint/eslint-plugin':
