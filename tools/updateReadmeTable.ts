@@ -37,6 +37,8 @@ const getDesc = (packageName: string) => {
       return 'Node.js の記述に対するルールを設定する'
     case 'eslint-plugin-promise':
       return '非同期処理に対するルールを設定する'
+    case 'eslint-plugin-vue':
+      return '.vue ファイルの静的検証に対するルールを設定する'
     case 'fs-extra':
       return 'node.js標準のfsモジュールを vite で使用可能にする'
     case 'vite-plugin-env-compatible':
@@ -49,6 +51,8 @@ const getDesc = (packageName: string) => {
       return 'vite.config.ts に tsconfig.json で指定した alias path を反映する'
     case 'vue-tsc':
       return '.vue の template 内も含めて型チェックが行えるツール'
+    case '@vitejs/plugin-vue':
+      return 'vite で Vue.js を使用するためのプラグイン'
     default:
       break
   }
@@ -78,10 +82,7 @@ for (let i = 0; i < name.length; i++) {
 
 writeFile(
   'README.md',
-  readme.replace(
-    readme.match(/### 使用パッケージ\n\n([\s\S]*)\n### Note/)?.[1] || '',
-    tableBody
-  ),
+  readme.replace(readme.match(/### 使用パッケージ\n\n([\s\S]*)\n### Note/)?.[1] || '', tableBody),
   (err) => {
     if (err) throw err
     console.log('正常に書き込みが完了しました')

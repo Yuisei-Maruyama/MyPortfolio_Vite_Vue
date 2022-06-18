@@ -56,14 +56,14 @@ https://eslint.vuejs.org/rules/#priority-c-recommended-minimizing-arbitrary-choi
 | [vue](https://www.npmjs.com/package/vue) | ^3.2.25 | ユーザインタフェース構築のための JavaScript |
 | [@types/fs-extra](https://www.npmjs.com/package/@types/fs-extra) | ^9.0.13 | fs-extraの型定義ファイル |
 | [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | ^5.28.0 | ESLint で Typescript のチェックを行う |
-| [@vitejs/plugin-vue](https://www.npmjs.com/package/@vitejs/plugin-vue) | ^2.3.3 |  |
+| [@vitejs/plugin-vue](https://www.npmjs.com/package/@vitejs/plugin-vue) | ^2.3.3 | vite で Vue.js を使用するためのプラグイン |
 | [eslint](https://www.npmjs.com/package/eslint) | ^8.18.0 | コードの解析 |
 | [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) | ^8.5.0 | ESLint と Prettier を併用する |
 | [eslint-config-standard](https://www.npmjs.com/package/eslint-config-standard) | ^17.0.0 | JavaScript Standard Styleのルールをeslintに適用する |
 | [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import) | ^2.26.0 | importの順番をルール化して自動で整列させる |
 | [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) | ^11.1.0 | Node.js の記述に対するルールを設定する |
 | [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise) | ^6.0.0 | 非同期処理に対するルールを設定する |
-| [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue) | ^9.1.1 |  |
+| [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue) | ^9.1.1 | .vue ファイルの静的検証に対するルールを設定する |
 | [husky](https://www.npmjs.com/package/husky) | ^8.0.0 | Git コマンドフックに指定したコマンドを呼び出せる |
 | [lint-staged](https://www.npmjs.com/package/lint-staged) | ^13.0.2 | commit したファイル(ステージングにあるファイル)に lint を実行する  |
 | [prettier](https://www.npmjs.com/package/prettier) | ^2.7.1 | コードの整形 |
