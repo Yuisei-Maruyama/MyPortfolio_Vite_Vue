@@ -43,7 +43,7 @@ module.exports = {
   },
   settings: {
     vue: {
-      version: '3.2.37'
+      version: 'detect'
     }
   }
 }

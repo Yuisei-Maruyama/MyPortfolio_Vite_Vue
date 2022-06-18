@@ -52,6 +52,7 @@ https://eslint.vuejs.org/rules/#priority-c-recommended-minimizing-arbitrary-choi
 | 技術 | version | 備考 |
 | ---- | ------- | ---- |
 | [fs-extra](https://www.npmjs.com/package/fs-extra) | ^10.1.0 | node.js標準のfsモジュールを vite で使用可能にする |
+| [sass](https://www.npmjs.com/package/sass) | ^1.52.3 |  |
 | [vite-plugin-env-compatible](https://www.npmjs.com/package/vite-plugin-env-compatible) | ^1.1.1 | vite で process.env の形式で環境変数を使用可能にする |
 | [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) | ^3.5.0 | vite.config.ts に tsconfig.json で指定した alias path を反映する |
 | [vue](https://www.npmjs.com/package/vue) | ^3.2.25 | ユーザインタフェース構築のための JavaScript |
