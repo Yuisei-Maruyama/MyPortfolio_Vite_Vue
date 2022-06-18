@@ -21,12 +21,14 @@ module.exports = {
   plugins: [
     'vue',
     '@typescript-eslint',
+    "import"
   ],
   rules: {
     'no-use-before-define': 'off', // import React from 'react' のエラー回避
     '@typescript-eslint/no-use-before-define': ['error', { "variables": false }],
     'camelCase': 'off',
     'space-before-function-paren': 'off',
+    "import/no-duplicates": "error",
     'vue/no-deprecated-slot-attribute': 2,
     'vue/no-deprecated-scope-attribute': 2,
     'vue/no-deprecated-slot-scope-attribute': 2,
