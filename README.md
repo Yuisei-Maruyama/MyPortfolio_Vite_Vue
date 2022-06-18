@@ -17,7 +17,7 @@ npm i
 npm run dev
 ```
 
-### Husky Setup
+### Huskyの設定方法
 
 ```bash
 npx husky-init && npm install
