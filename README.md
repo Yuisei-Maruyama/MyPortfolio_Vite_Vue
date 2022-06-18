@@ -25,16 +25,17 @@ npx husky-init && npm install
 
 you have a file called `.husky/pre-commit`, so change it to run `npm run lint-fix`.  
 
-(before)
+(.husky/pre-commit)
 ```
+// before
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
 npm test
 ```
 
-(after)
 ```
+// after
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
