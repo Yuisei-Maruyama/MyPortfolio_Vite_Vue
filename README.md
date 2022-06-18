@@ -41,6 +41,8 @@ npm test
 npm run lint-fix // <- change
 ```
 
+### ESLint Rules for Vue
+
 > Vue3 Lint Rules
 https://eslint.vuejs.org/rules/#priority-c-recommended-minimizing-arbitrary-choices-and-cognitive-overhead-for-vue-js-3-x
 
@@ -67,7 +69,11 @@ https://eslint.vuejs.org/rules/#priority-c-recommended-minimizing-arbitrary-choi
 | [prettier](https://www.npmjs.com/package/prettier) | ^2.7.1 | コードの整形 |
 | [typescript](https://www.npmjs.com/package/typescript) | ^4.5.4 | JavaScript に対して、静的型付けとクラスベースオブジェクト指向を加えた言語 |
 | [vite](https://www.npmjs.com/package/vite) | ^2.9.9 | 従来のビルドツールと比較して、高速で動作するビルドツールパッケージ |
-| [vue-tsc](https://www.npmjs.com/package/vue-tsc) | ^0.34.7 |  |
+| [vue-tsc](https://www.npmjs.com/package/vue-tsc) | ^0.34.7 | .vue の template 内も含めて型チェックが行えるツール |
+
+### Note
+
+※ 上記テーブルは`tools/updateReadmeTable.ts`によって生成され、コミット時に自動更新されます。
 
 ### コンポーネント作成にあたって
 

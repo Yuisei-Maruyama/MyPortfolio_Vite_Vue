@@ -47,6 +47,8 @@ const getDesc = (packageName: string) => {
       return '従来のビルドツールと比較して、高速で動作するビルドツールパッケージ'
     case 'vite-tsconfig-paths':
       return 'vite.config.ts に tsconfig.json で指定した alias path を反映する'
+    case 'vue-tsc':
+      return '.vue の template 内も含めて型チェックが行えるツール'
     default:
       break
   }
@@ -77,7 +79,7 @@ for (let i = 0; i < name.length; i++) {
 writeFile(
   'README.md',
   readme.replace(
-    readme.match(/### 使用パッケージ\n\n([\s\S]*)\n### コンポーネント作成にあたって/)?.[1] || '',
+    readme.match(/### 使用パッケージ\n\n([\s\S]*)\n### Note/)?.[1] || '',
     tableBody
   ),
   (err) => {
