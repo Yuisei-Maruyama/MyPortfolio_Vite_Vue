@@ -14,7 +14,6 @@
     "fs-extra": "^10.1.0",
     "sass": "^1.52.3",
     "vite-plugin-env-compatible": "^1.1.1",
-    "vite-tsconfig-paths": "^3.5.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
@@ -33,6 +32,7 @@
     "prettier": "^2.7.1",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
+    "vue-router": "^4.0.16",
     "vue-tsc": "^0.34.7"
   },
   "husky": {

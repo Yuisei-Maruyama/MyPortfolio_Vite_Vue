@@ -54,7 +54,6 @@ https://eslint.vuejs.org/rules/#priority-c-recommended-minimizing-arbitrary-choi
 | [fs-extra](https://www.npmjs.com/package/fs-extra) | ^10.1.0 | node.js標準のfsモジュールを vite で使用可能にする |
 | [sass](https://www.npmjs.com/package/sass) | ^1.52.3 | Sass をコンパイルするためのモジュール |
 | [vite-plugin-env-compatible](https://www.npmjs.com/package/vite-plugin-env-compatible) | ^1.1.1 | vite で process.env の形式で環境変数を使用可能にする |
-| [vite-tsconfig-paths](https://www.npmjs.com/package/vite-tsconfig-paths) | ^3.5.0 | vite.config.ts に tsconfig.json で指定した alias path を反映する |
 | [vue](https://www.npmjs.com/package/vue) | ^3.2.25 | ユーザインタフェース構築のための JavaScript |
 | [@types/fs-extra](https://www.npmjs.com/package/@types/fs-extra) | ^9.0.13 | fs-extraの型定義ファイル |
 | [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin) | ^5.28.0 | ESLint で Typescript のチェックを行う |
@@ -71,6 +70,7 @@ https://eslint.vuejs.org/rules/#priority-c-recommended-minimizing-arbitrary-choi
 | [prettier](https://www.npmjs.com/package/prettier) | ^2.7.1 | コードの整形 |
 | [typescript](https://www.npmjs.com/package/typescript) | ^4.5.4 | JavaScript に対して、静的型付けとクラスベースオブジェクト指向を加えた言語 |
 | [vite](https://www.npmjs.com/package/vite) | ^2.9.9 | 従来のビルドツールと比較して、高速で動作するビルドツールパッケージ |
+| [vue-router](https://www.npmjs.com/package/vue-router) | ^4.0.16 |  |
 | [vue-tsc](https://www.npmjs.com/package/vue-tsc) | ^0.34.7 | .vue の template 内も含めて型チェックが行えるツール |
 
 ### Note
