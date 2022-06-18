@@ -23,7 +23,7 @@ npm run dev
 npx husky-init && npm install
 ```
 
-you have a file called `.husky/pre-commit`, so change it to run `npm run lint-staged`.  
+you have a file called `.husky/pre-commit`, so change it to run `npm run lint-fix`.  
 
 (before)
 ```
