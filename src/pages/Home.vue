@@ -1,9 +1,8 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <router-link :to="{ path: '/Page1'}">Page1</router-link>
-  <router-link :to="{ path: '/Page2'}">Page2</router-link>
+  <router-link :to="{ path: '/othello' }">Othello</router-link>
+  <router-link :to="{ path: '/Page2' }">Page2</router-link>
 </template>
 
 <style scoped lang="scss">
