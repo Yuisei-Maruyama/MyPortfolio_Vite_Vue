@@ -61,8 +61,9 @@ const gBoard = (parent: string) => {
     disc.className = 'disc'
     disc.style.display = 'none'
     cell.appendChild(disc)
-    // TODO:ここの部分参考コードでなんのためかわからない＋正しくないのでコメントアウト
-    // cell.disc = disc
+    // TODO:ここの部分これであっているのか
+    cell.disc = disc
+console.log({cell});
 
     board.value?.appendChild(cell)
     baseCell[i] = cell
